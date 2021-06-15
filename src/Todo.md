@@ -1,7 +1,7 @@
 # Refactor to context
 
-- [ ] CreateContext importeren
-- [ ] Context aanmaken
+- [x] CreateContext importeren
+- [x] Context aanmaken
 - [ ] Context.Provider om de App heenzetten
 - [ ] Values doorgeven
 - [ ] In elk component

@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useStat, createContext } from "react";
 import "./App.css";
 import { Switch, Route, Link } from "react-router-dom";
 import Counters from "./pages/Counters";
 import Checkout from "./pages/Checkout";
 import Home from "./pages/Home";
+
+const fruitCounterContext = createContext({});
 
 function App() {
   const [apples, setApples] = useState(0);
