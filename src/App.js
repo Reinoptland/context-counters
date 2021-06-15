@@ -38,7 +38,7 @@ function App() {
               <Checkout />
             </Route>
             <Route path="/">
-              <Home totalFruit={pears + apples + bananas} />
+              <Home />
             </Route>
           </Switch>
         </header>
