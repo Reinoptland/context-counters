@@ -2,8 +2,8 @@
 
 - [x] CreateContext importeren
 - [x] Context aanmaken
-- [ ] Context.Provider om de App heenzetten
-- [ ] Values doorgeven
+- [x] Context.Provider om de App heenzetten
+- [x] Values doorgeven
 - [ ] In elk component
   - [ ] useContext importeren
   - [ ] context object importeren
