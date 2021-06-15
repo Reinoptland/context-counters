@@ -5,7 +5,7 @@ import Counters from "./pages/Counters";
 import Checkout from "./pages/Checkout";
 import Home from "./pages/Home";
 
-const fruitCounterContext = createContext({});
+export const fruitCounterContext = createContext({});
 
 function App() {
   const [apples, setApples] = useState(0);
@@ -32,14 +32,7 @@ function App() {
           </nav>
           <Switch>
             <Route path="/counters">
-              <Counters
-                apples={apples}
-                setApples={setApples}
-                bananas={bananas}
-                setBananas={setBananas}
-                pears={pears}
-                setPears={setPears}
-              />
+              <Counters />
             </Route>
             <Route path="/checkout">
               <Checkout pears={pears} apples={apples} bananas={bananas} />
