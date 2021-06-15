@@ -35,7 +35,7 @@ function App() {
               <Counters />
             </Route>
             <Route path="/checkout">
-              <Checkout pears={pears} apples={apples} bananas={bananas} />
+              <Checkout />
             </Route>
             <Route path="/">
               <Home totalFruit={pears + apples + bananas} />

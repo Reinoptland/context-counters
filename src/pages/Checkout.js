@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { fruitCounterContext } from "../App";
 
-export default function Checkout(props) {
-  const { apples, bananas, pears } = props;
+export default function Checkout() {
+  const { apples, bananas, pears } = useContext(fruitCounterContext);
   return (
     <div>
       <div>
